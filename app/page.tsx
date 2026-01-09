@@ -146,7 +146,7 @@ export default function Home() {
 
           {matches.length > 0 && (
             <div className="space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-700">
-              <h2 className="text-2xl font-bold border-b pb-2">Katherine's Top Matches</h2>
+              <h2 className="text-2xl font-bold border-b pb-2">Katherine&apos;s Top Matches</h2>
               {matches.map((job, i) => (
                 <div key={i} className="group p-5 bg-white border border-gray-200 rounded-2xl shadow-sm hover:border-blue-500 transition-all">
                   <div className="flex justify-between items-start">
@@ -159,7 +159,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="mt-4 p-3 bg-blue-50 rounded-lg border border-blue-100 italic text-sm text-blue-900">
-                    "{job.reason_why}"
+                    &quot;{job.reason_why}&quot;
                   </div>
                   <button className="mt-4 w-full py-2 bg-black text-white rounded-xl font-bold hover:bg-gray-800 transition-colors">
                     Apply with Nia
